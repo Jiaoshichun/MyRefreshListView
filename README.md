@@ -3,11 +3,11 @@
 
 ##使用方式  
 1.view包中的三个类拷贝到自己项目中，并在项目的attrs中添加  
-  `<declare-styleable name="MyRecyclerAttrs">
-        <attr name="divideHeight" format="dimension" />
-        <attr name="divideDrawable" format="reference" />
-    </declare-styleable>`
-    将layout文件夹下的listview_foot拷贝到自己项目中，并将报错的地方拷贝过去即可。
+  `<declare-styleable name="MyRecyclerAttrs">  
+        <attr name="divideHeight" format="dimension" />  
+        <attr name="divideDrawable" format="reference" />  
+    </declare-styleable>`  
+    将layout文件夹下的listview_foot拷贝到自己项目中，并将报错的地方拷贝过去即可。  
 2.新建自己的adapter  
  `public class DemoAdapter extends BaseRefreshAdapter<String, DemoAdapter.ViewHolder> {
     public DemoAdapter(Context context) {
@@ -34,8 +34,8 @@
             txt = (TextView) itemView.findViewById(R.id.txt);
         }
     }
-}`
-3.在Aciticy中添加MyRefreshListView
+}`  
+3.在Aciticy中添加MyRefreshListView  
 `<?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:custom="http://schemas.android.com/apk/res-auto"
@@ -49,7 +49,7 @@
         android:id="@+id/mylist"
         custom:divideHeight="4dp"
         custom:divideDrawable="@color/bg"/>
-</RelativeLayout>`
+</RelativeLayout>`  
 4.在activity中使用  
 `public class MainActivity extends AppCompatActivity implements MyRefreshListView.MyOnRefreshListener {
 
@@ -115,5 +115,5 @@
             }
         }, 1000);
     }
-}`
+}`  
 
