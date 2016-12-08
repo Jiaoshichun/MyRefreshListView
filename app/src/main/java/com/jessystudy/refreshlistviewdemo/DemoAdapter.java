@@ -1,4 +1,4 @@
-package com.jessystudy.refreshlistviewdemo.view;
+package com.jessystudy.refreshlistviewdemo;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -6,7 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.jessystudy.refreshlistviewdemo.R;
+import com.jessystudy.refreshlistviewdemo.view.BaseRefreshAdapter;
 
 
 /**

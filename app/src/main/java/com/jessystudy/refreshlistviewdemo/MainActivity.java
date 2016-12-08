@@ -7,7 +7,6 @@ import android.view.View;
 import android.widget.Toast;
 
 import com.jessystudy.refreshlistviewdemo.view.BaseRefreshAdapter;
-import com.jessystudy.refreshlistviewdemo.view.DemoAdapter;
 import com.jessystudy.refreshlistviewdemo.view.MyRefreshListView;
 
 import java.util.ArrayList;
