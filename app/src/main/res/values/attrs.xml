@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MyRecyclerAttrs">
+        <attr name="divideHeight" format="dimension" />
+        <attr name="divideDrawable" format="reference" />
+    </declare-styleable>
+</resources>
