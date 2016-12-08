@@ -1,7 +1,10 @@
 # MyRefreshListView
 支持下拉刷新，上拉加载更多的listview。使用SwipRefreshView和RecylerView来实现。使用更简洁，更易用
 
-##使用方式  
+##效果图  
+ ![image](https://github.com/Jiaoshichun/MyRefreshListView.git/demo.git)
+
+##使用方式  
 1.view包中的三个类拷贝到自己项目中，并在项目的attrs中添加  
 
     <declare-styleable name="MyRecyclerAttrs">
